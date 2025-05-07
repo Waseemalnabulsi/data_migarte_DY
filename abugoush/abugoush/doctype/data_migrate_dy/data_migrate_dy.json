@@ -1,0 +1,97 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "DY.####",
+ "creation": "2025-05-06 12:55:30.773720",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "old_erp_url",
+  "api_key",
+  "api_secret",
+  "doctype_to_pull",
+  "target_doctype",
+  "log",
+  "section_break_cazh",
+  "field_map"
+ ],
+ "fields": [
+  {
+   "fieldname": "old_erp_url",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Old ERP URL",
+   "reqd": 1
+  },
+  {
+   "fieldname": "api_key",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "API Key",
+   "reqd": 1
+  },
+  {
+   "fieldname": "api_secret",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "API Secret",
+   "reqd": 1
+  },
+  {
+   "fieldname": "doctype_to_pull",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Doctype to Pull",
+   "reqd": 1
+  },
+  {
+   "fieldname": "log",
+   "fieldtype": "Long Text",
+   "label": "Log"
+  },
+  {
+   "fieldname": "field_map",
+   "fieldtype": "Table",
+   "label": "Field Map",
+   "options": "Field Map Item",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_cazh",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "target_doctype",
+   "fieldtype": "Data",
+   "label": "Target Doctype",
+   "reqd": 1
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-05-06 14:15:34.634810",
+ "modified_by": "Administrator",
+ "module": "abugoush",
+ "name": "Data Migrate DY",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
